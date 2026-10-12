@@ -1,0 +1,70 @@
+[
+  {
+    "id": "prod_heavyweight_tee",
+    "name": "Minimalist 'Deep Work' Heavyweight Tee",
+    "tagline": "100% Ring-Spun Cotton / Boxy Oversized Fit",
+    "price": 3800,
+    "currency": "usd",
+    "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80",
+    "description": "Crafted from durable 240 GSM organic cotton. Built with reinforced double-needle stitching, relaxed dropped shoulders, and pre-shrunk fabric for everyday comfort.",
+    "features": [
+      "240 GSM Ultra-Heavyweight Cotton",
+      "Tailored Relaxed / Boxy Cut",
+      "Screen-printed with water-based eco inks",
+      "Fulfilled & shipped in 3-5 business days"
+    ],
+    "sizes": ["S", "M", "L", "XL", "2XL"],
+    "colors": ["Washed Black", "Vintage Olive", "Off-White"]
+  },
+  {
+    "id": "prod_architect_hoodie",
+    "name": "CloudFleece™ Embroidered Hoodie",
+    "tagline": "400 GSM French Terry Cotton / Custom Embroidery",
+    "price": 6800,
+    "currency": "usd",
+    "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=800&q=80",
+    "description": "Our best-selling cozy hoodie. Features high-density chest embroidery, double-lined hood with metal eyelets, and kangaroo pocket.",
+    "features": [
+      "400 GSM Ultra-Warm French Terry",
+      "Precision direct embroidery",
+      "Ribbed cuffs and waistband that keep their shape",
+      "Ships with tracked priority parcel"
+    ],
+    "sizes": ["S", "M", "L", "XL", "2XL"],
+    "colors": ["Charcoal", "Heather Grey", "Midnight Navy"]
+  },
+  {
+    "id": "prod_ceramic_mug",
+    "name": "Studio Matte Ceramic Coffee Tumbler",
+    "tagline": "15oz Dual-Glaze Ceramic / Heat Retention",
+    "price": 2400,
+    "currency": "usd",
+    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
+    "description": "Ergonomic, modern artisan ceramic mug designed for espresso, pour-overs, and daily fuel. Dishwasher and microwave safe.",
+    "features": [
+      "15 oz / 440 ml capacity",
+      "Stoneware ceramic with textured matte finish",
+      "Chip-resistant edge",
+      "Individually boxed in protective foam packaging"
+    ],
+    "sizes": ["15 oz"],
+    "colors": ["Stone Grey", "Matte Obsidian"]
+  },
+  {
+    "id": "prod_tote_canvas",
+    "name": "Everyday Heavy Canvas Utility Tote",
+    "tagline": "16oz Recycled Cotton Canvas / Inner Zip Pocket",
+    "price": 2900,
+    "currency": "usd",
+    "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80",
+    "description": "Reinforced long handles, wide gusset bottom, and interior zip compartment for keys and wallet. High utility meets clean design.",
+    "features": [
+      "Heavyweight 16oz duck canvas",
+      "Reinforced cross-stitch handles (12\" drop)",
+      "Interior zippered security pocket",
+      "Printed on-demand with scratch-resistant inks"
+    ],
+    "sizes": ["One Size"],
+    "colors": ["Natural Cream", "Army Green"]
+  }
+]

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Confirmed | AURA & THREAD STUDIO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .success-container {
+      max-width: 650px;
+      margin: 80px auto;
+      text-align: center;
+      background: #fff;
+      padding: 50px 30px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-sm);
+    }
+    .check-icon {
+      width: 64px;
+      height: 64px;
+      background: #e8f5e9;
+      color: #2e7d32;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      margin-bottom: 24px;
+    }
+    .order-box {
+      background: #fbfbfb;
+      border: 1px dashed var(--border);
+      padding: 20px;
+      border-radius: var(--radius-sm);
+      margin: 24px 0 32px;
+      font-size: 0.95rem;
+      text-align: left;
+    }
+    .order-box div {
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="success-container">
+      <div class="check-icon">✓</div>
+      <h1 style="font-family: var(--font-serif); font-size: 2.2rem; margin-bottom: 12px;">Payment Successful!</h1>
+      <p style="color: var(--text-muted); font-size: 1.05rem;">Thank you for your order. Your items are now queued for print and fulfillment.</p>
+      
+      <div class="order-box">
+        <div><strong>Status:</strong> Payment Captured via Stripe</div>
+        <div><strong>Fulfillment Partner:</strong> Printify Global Network</div>
+        <div><strong>Estimated Dispatch:</strong> 2–4 Business Days</div>
+        <div><strong>Tracking:</strong> An automated tracking email will be sent once packaged.</div>
+      </div>
+
+      <a href="/" class="btn btn-primary" onclick="localStorage.removeItem('cart_items')">Back to Studio</a>
+    </div>
+  </div>
+</body>
+</html>
